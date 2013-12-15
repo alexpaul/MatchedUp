@@ -1,5 +1,5 @@
 //
-//  MUSecondViewController.h
+//  MULoginViewController.h
 //  MatchedUp
 //
 //  Created by Alex Paul on 12/6/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MUSecondViewController : UIViewController
+@interface MULoginViewController : UIViewController
 
 @end

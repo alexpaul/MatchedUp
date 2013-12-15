@@ -10,23 +10,32 @@
 
 @interface MUProfileViewController ()
 
+@property (strong, nonatomic) IBOutlet UIImageView *profilePictureImageView;
+@property (strong, nonatomic) IBOutlet UILabel *locationLabel;
+@property (strong, nonatomic) IBOutlet UILabel *ageLabel;
+@property (strong, nonatomic) IBOutlet UILabel *statusLabel;
+@property (strong, nonatomic) IBOutlet UILabel *tagLineLabel;
+
 @end
 
 @implementation MUProfileViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
+#pragma mark - View Life Cycle
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    PFFile *pictureFile = self.photo[kMUPhotoPictureKey];
+    [pictureFile getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
+        self.profilePictureImageView.image = [UIImage imageWithData:data];
+    }];
+    PFUser *user = self.photo[kMUPhotoUserKey];
+    self.locationLabel.text = user[kMUUserProfileKey][kMUUserProfileLocationKey];
+    self.statusLabel.text = user[kMUUserProfileKey][kMUUserProfileRelationshipStatusKey];
+    self.ageLabel.text = [NSString stringWithFormat:@"%@", user[kMUUserProfileKey][kMUUserProfileAgeKey]];
+    self.tagLineLabel.text = user[kMUUserProfileKey][kMUUserTagLineKey];
+    NSLog(@"%@", user[kMUUserProfileKey][kMUUserTagLineKey]);
 }
 
 - (void)didReceiveMemoryWarning

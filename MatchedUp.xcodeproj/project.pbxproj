@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EA222D1166346789E1CE6B0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E9EA60C2564E0EB3369F31 /* libPods.a */; };
 		574C943418523E9000ED57F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574C943318523E9000ED57F1 /* Foundation.framework */; };
 		574C943618523E9000ED57F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574C943518523E9000ED57F1 /* CoreGraphics.framework */; };
 		574C943818523E9000ED57F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574C943718523E9000ED57F1 /* UIKit.framework */; };
@@ -14,14 +15,20 @@
 		574C944018523E9000ED57F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C943F18523E9000ED57F1 /* main.m */; };
 		574C944418523E9000ED57F1 /* MUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C944318523E9000ED57F1 /* MUAppDelegate.m */; };
 		574C944718523E9000ED57F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574C944518523E9000ED57F1 /* Main.storyboard */; };
-		574C944A18523E9000ED57F1 /* MUFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C944918523E9000ED57F1 /* MUFirstViewController.m */; };
-		574C944D18523E9000ED57F1 /* MUSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C944C18523E9000ED57F1 /* MUSecondViewController.m */; };
 		574C944F18523E9000ED57F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574C944E18523E9000ED57F1 /* Images.xcassets */; };
 		574C945618523E9000ED57F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574C945518523E9000ED57F1 /* XCTest.framework */; };
 		574C945718523E9000ED57F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574C943318523E9000ED57F1 /* Foundation.framework */; };
 		574C945818523E9000ED57F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574C943718523E9000ED57F1 /* UIKit.framework */; };
 		574C946018523E9000ED57F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 574C945E18523E9000ED57F1 /* InfoPlist.strings */; };
 		574C946218523E9000ED57F1 /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C946118523E9000ED57F1 /* MatchedUpTests.m */; };
+		574C946D18523F9000ED57F1 /* MULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C946C18523F9000ED57F1 /* MULoginViewController.m */; };
+		57A6DE7C18549E97002829F9 /* MUConstansts.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A6DE7B18549E97002829F9 /* MUConstansts.m */; };
+		57A6DE7F1856661D002829F9 /* MUHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A6DE7E1856661D002829F9 /* MUHomeViewController.m */; };
+		57A6DE8418566F73002829F9 /* MUSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A6DE8318566F73002829F9 /* MUSettingsViewController.m */; };
+		57A6DE8818567478002829F9 /* MUEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A6DE8718567478002829F9 /* MUEditProfileViewController.m */; };
+		57A6DE8C18567698002829F9 /* MUProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A6DE8B18567698002829F9 /* MUProfileViewController.m */; };
+		57F2D8AC185DD57C00222EE9 /* MUTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F2D8AB185DD57C00222EE9 /* MUTestUser.m */; };
+		57F2D8AE185DD5D200222EE9 /* anh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57F2D8AD185DD5D200222EE9 /* anh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +53,29 @@
 		574C944218523E9000ED57F1 /* MUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUAppDelegate.h; sourceTree = "<group>"; };
 		574C944318523E9000ED57F1 /* MUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUAppDelegate.m; sourceTree = "<group>"; };
 		574C944618523E9000ED57F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		574C944818523E9000ED57F1 /* MUFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUFirstViewController.h; sourceTree = "<group>"; };
-		574C944918523E9000ED57F1 /* MUFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUFirstViewController.m; sourceTree = "<group>"; };
-		574C944B18523E9000ED57F1 /* MUSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUSecondViewController.h; sourceTree = "<group>"; };
-		574C944C18523E9000ED57F1 /* MUSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUSecondViewController.m; sourceTree = "<group>"; };
 		574C944E18523E9000ED57F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		574C945418523E9000ED57F1 /* MatchedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		574C945518523E9000ED57F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		574C945D18523E9000ED57F1 /* MatchedUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchedUpTests-Info.plist"; sourceTree = "<group>"; };
 		574C945F18523E9000ED57F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		574C946118523E9000ED57F1 /* MatchedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUpTests.m; sourceTree = "<group>"; };
+		574C946B18523F9000ED57F1 /* MULoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULoginViewController.h; sourceTree = "<group>"; };
+		574C946C18523F9000ED57F1 /* MULoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULoginViewController.m; sourceTree = "<group>"; };
+		57A6DE7A18549E97002829F9 /* MUConstansts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUConstansts.h; sourceTree = "<group>"; };
+		57A6DE7B18549E97002829F9 /* MUConstansts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUConstansts.m; sourceTree = "<group>"; };
+		57A6DE7D1856661D002829F9 /* MUHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHomeViewController.h; sourceTree = "<group>"; };
+		57A6DE7E1856661D002829F9 /* MUHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHomeViewController.m; sourceTree = "<group>"; };
+		57A6DE8218566F73002829F9 /* MUSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSettingsViewController.h; sourceTree = "<group>"; };
+		57A6DE8318566F73002829F9 /* MUSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSettingsViewController.m; sourceTree = "<group>"; };
+		57A6DE8618567478002829F9 /* MUEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUEditProfileViewController.h; sourceTree = "<group>"; };
+		57A6DE8718567478002829F9 /* MUEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUEditProfileViewController.m; sourceTree = "<group>"; };
+		57A6DE8A18567698002829F9 /* MUProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUProfileViewController.h; sourceTree = "<group>"; };
+		57A6DE8B18567698002829F9 /* MUProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUProfileViewController.m; sourceTree = "<group>"; };
+		57F2D8AA185DD57C00222EE9 /* MUTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTestUser.h; sourceTree = "<group>"; };
+		57F2D8AB185DD57C00222EE9 /* MUTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTestUser.m; sourceTree = "<group>"; };
+		57F2D8AD185DD5D200222EE9 /* anh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anh.jpg; sourceTree = "<group>"; };
+		70922B06BDE840B1AF7F8E24 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E5E9EA60C2564E0EB3369F31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +86,7 @@
 				574C943618523E9000ED57F1 /* CoreGraphics.framework in Frameworks */,
 				574C943818523E9000ED57F1 /* UIKit.framework in Frameworks */,
 				574C943418523E9000ED57F1 /* Foundation.framework in Frameworks */,
+				1EA222D1166346789E1CE6B0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +110,7 @@
 				574C945B18523E9000ED57F1 /* MatchedUpTests */,
 				574C943218523E9000ED57F1 /* Frameworks */,
 				574C943118523E9000ED57F1 /* Products */,
+				70922B06BDE840B1AF7F8E24 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +130,7 @@
 				574C943518523E9000ED57F1 /* CoreGraphics.framework */,
 				574C943718523E9000ED57F1 /* UIKit.framework */,
 				574C945518523E9000ED57F1 /* XCTest.framework */,
+				E5E9EA60C2564E0EB3369F31 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +138,13 @@
 		574C943918523E9000ED57F1 /* MatchedUp */ = {
 			isa = PBXGroup;
 			children = (
-				574C944218523E9000ED57F1 /* MUAppDelegate.h */,
-				574C944318523E9000ED57F1 /* MUAppDelegate.m */,
 				574C944518523E9000ED57F1 /* Main.storyboard */,
-				574C944818523E9000ED57F1 /* MUFirstViewController.h */,
-				574C944918523E9000ED57F1 /* MUFirstViewController.m */,
-				574C944B18523E9000ED57F1 /* MUSecondViewController.h */,
-				574C944C18523E9000ED57F1 /* MUSecondViewController.m */,
+				57F2D8A9185DD54900222EE9 /* CreateParseUser */,
+				574C946E18523FCE00ED57F1 /* Login */,
+				57A6DE8018566AC2002829F9 /* Home */,
+				57A6DE8918567679002829F9 /* Profile */,
+				57A6DE8118566F5A002829F9 /* Settings */,
+				57A6DE8518567423002829F9 /* EditProfile */,
 				574C944E18523E9000ED57F1 /* Images.xcassets */,
 				574C943A18523E9000ED57F1 /* Supporting Files */,
 			);
@@ -131,6 +154,10 @@
 		574C943A18523E9000ED57F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57F2D8AD185DD5D200222EE9 /* anh.jpg */,
+				57F2D8A8185C859100222EE9 /* Constants */,
+				574C944218523E9000ED57F1 /* MUAppDelegate.h */,
+				574C944318523E9000ED57F1 /* MUAppDelegate.m */,
 				574C943B18523E9000ED57F1 /* MatchedUp-Info.plist */,
 				574C943C18523E9000ED57F1 /* InfoPlist.strings */,
 				574C943F18523E9000ED57F1 /* main.m */,
@@ -157,6 +184,69 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		574C946E18523FCE00ED57F1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				574C946B18523F9000ED57F1 /* MULoginViewController.h */,
+				574C946C18523F9000ED57F1 /* MULoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		57A6DE8018566AC2002829F9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				57A6DE7D1856661D002829F9 /* MUHomeViewController.h */,
+				57A6DE7E1856661D002829F9 /* MUHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		57A6DE8118566F5A002829F9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				57A6DE8218566F73002829F9 /* MUSettingsViewController.h */,
+				57A6DE8318566F73002829F9 /* MUSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		57A6DE8518567423002829F9 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				57A6DE8618567478002829F9 /* MUEditProfileViewController.h */,
+				57A6DE8718567478002829F9 /* MUEditProfileViewController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		57A6DE8918567679002829F9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				57A6DE8A18567698002829F9 /* MUProfileViewController.h */,
+				57A6DE8B18567698002829F9 /* MUProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		57F2D8A8185C859100222EE9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				57A6DE7A18549E97002829F9 /* MUConstansts.h */,
+				57A6DE7B18549E97002829F9 /* MUConstansts.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		57F2D8A9185DD54900222EE9 /* CreateParseUser */ = {
+			isa = PBXGroup;
+			children = (
+				57F2D8AA185DD57C00222EE9 /* MUTestUser.h */,
+				57F2D8AB185DD57C00222EE9 /* MUTestUser.m */,
+			);
+			name = CreateParseUser;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 574C946518523E9000ED57F1 /* Build configuration list for PBXNativeTarget "MatchedUp" */;
 			buildPhases = (
+				239A4E84B47F40F3AE5A40B8 /* Check Pods Manifest.lock */,
 				574C942C18523E9000ED57F1 /* Sources */,
 				574C942D18523E9000ED57F1 /* Frameworks */,
 				574C942E18523E9000ED57F1 /* Resources */,
+				C5A4D758341F4664B08FBE6B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				574C944F18523E9000ED57F1 /* Images.xcassets in Resources */,
+				57F2D8AE185DD5D200222EE9 /* anh.jpg in Resources */,
 				574C943E18523E9000ED57F1 /* InfoPlist.strings in Resources */,
 				574C944718523E9000ED57F1 /* Main.storyboard in Resources */,
 			);
@@ -250,15 +343,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		239A4E84B47F40F3AE5A40B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A4D758341F4664B08FBE6B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		574C942C18523E9000ED57F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574C944D18523E9000ED57F1 /* MUSecondViewController.m in Sources */,
-				574C944A18523E9000ED57F1 /* MUFirstViewController.m in Sources */,
+				574C946D18523F9000ED57F1 /* MULoginViewController.m in Sources */,
+				57A6DE8418566F73002829F9 /* MUSettingsViewController.m in Sources */,
+				57A6DE7F1856661D002829F9 /* MUHomeViewController.m in Sources */,
 				574C944418523E9000ED57F1 /* MUAppDelegate.m in Sources */,
+				57A6DE8818567478002829F9 /* MUEditProfileViewController.m in Sources */,
 				574C944018523E9000ED57F1 /* main.m in Sources */,
+				57A6DE8C18567698002829F9 /* MUProfileViewController.m in Sources */,
+				57A6DE7C18549E97002829F9 /* MUConstansts.m in Sources */,
+				57F2D8AC185DD57C00222EE9 /* MUTestUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +513,7 @@
 		};
 		574C946618523E9000ED57F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70922B06BDE840B1AF7F8E24 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -395,6 +527,7 @@
 		};
 		574C946718523E9000ED57F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70922B06BDE840B1AF7F8E24 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -467,6 +600,7 @@
 				574C946718523E9000ED57F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		574C946818523E9000ED57F1 /* Build configuration list for PBXNativeTarget "MatchedUpTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +609,7 @@
 				574C946A18523E9000ED57F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

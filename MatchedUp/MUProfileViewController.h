@@ -10,4 +10,6 @@
 
 @interface MUProfileViewController : UIViewController
 
+@property (nonatomic, strong) PFObject *photo;
+
 @end
